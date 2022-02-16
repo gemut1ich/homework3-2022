@@ -71,8 +71,14 @@ footer a:visited{
 /*****  End Starter Code ****/
 
 /* Requirement 1 code here*/
+nav a{
+  text-decoration: none;
+}
 
 /* Requirement 2 code here*/
+a:hover{
+  text-decoration: wavy underline;
+}
 
 
 
@@ -83,11 +89,19 @@ a.skip{
   transition: left 1s ease-out;
   z-index: 1;
   /* Requirement 3 code here*/
+  /*The link using the skip class (“Skip to Main Content”) should be positioned 500px to the left of the link’s parent element. (So it is hidden by default when we open the page). */
+  position: absolute;
+  left: 500px;
   
 }
 
 
 /* Requirement 4 code here*/
+/*Any link in the nav that is in focus should have a 2px yellow border on the top with no other lines around it.*/
+nav a:focus{
+  border-top-color: yellow;
+  outline: none;
+}
 
 
 .container{
