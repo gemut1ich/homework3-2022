@@ -136,10 +136,10 @@ Has a minimum height of 400px
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #DDDDDD;
-  background-color: #858585;
-  background-color: #707070;
   background-color: #B3B3B3;
+  background-color: #707070;
+  background-color: #858585;
+  background-color: #DDDDDD;
   background-image: url("../images/header.jpg");
   min-height: 400px;
 }
